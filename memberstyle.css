@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    
+    color: #555;
+    font-family: 'Arial',serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+section{
+    padding: 80px;
+}
+/*this is to make the member box*/
+.section-team .card{
+    box-shadow: 4px 6px 6px rgba(0,0,0,0.4);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    
+    margin-right: 10px;  
+    width: 40%;
+    margin-bottom: 20px;
+   
+}
+/*member box expands a lil on hovering*/
+.section-team .card:hover{
+    transform: scale(1.25);
+    transition: transform 0.5s,opacity 1s;
+}
+/*designation is not displayed initially*/
+.designation{
+    display: none;
+}
+.name{
+    display: block;
+}
+/*designation is displayed on hovering*/
+.section-team .card:hover .designation{
+    display: block;
+    color: black;
+}
+/*name is hidden on hovering*/
+.section-team .card:hover .name{
+    display: none;
+}
+/*the width of image inside member box is 100%*/
+.section-team img{
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    
+}
+
+.section-team p{
+    padding-bottom: 20px;
+    letter-spacing: 1px;
+    font-weight: 80%;
+}
+.section-team h3{
+    background-color: pink;
+    font-size: 60%;
+    margin-top: -5px;
+    height:%;
+   
+
+}
+header
+{
+    background:black;
+    background-size: cover;
+  
+}
