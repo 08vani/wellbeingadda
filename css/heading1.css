@@ -1,0 +1,74 @@
+
+body
+{
+	background-color:white;
+}
+header
+{
+	background-color: #B3B3B3;
+	text-align: center;
+	padding: 1%;
+}
+header,footer
+{
+	background:#666666;
+	background: -moz-linear-gradient(#666666,0);
+
+
+}
+.half
+{
+	display: inline-block;
+	width: 40%;
+	float: left;
+	margin-right: 2%;
+}
+body
+{
+	margin: 50px;
+}
+nav a
+{
+	font-variant: small-caps;
+	font-size: 150%;
+	font-family: Arial;
+	width: 22%;
+	display: inline-block;
+	background-color: white;
+	margin:1px;
+}
+.whole
+{
+	float: clear;
+}
+
+h2
+{
+	display: inline-block;
+
+	background:pink;
+}
+img
+{
+	width: 75px;
+	display: inline;
+
+}
+p
+{
+	display: inline;
+}
+details
+{
+	font-style: italic;
+}
+summary
+{
+	font-style: normal;
+}
+footer
+{
+	
+	clear: both;
+
+}

@@ -1,0 +1,43 @@
+table.cal{
+	color:blue;
+	border-spacing: 0;
+	border: 3px solid black;
+	height: 300px;
+	border-radius: 0 0 15px 15px;
+}
+caption
+{
+	background-color: pink;
+	border-radius: 15px 15px 0 0;
+}
+tr:nth-child(odd)
+{
+	background-color: yellow;
+}
+span
+{
+	display: block;
+	visibility: hidden;
+	
+
+}
+td:active>span{
+	visibility:visible;
+}
+.cal td
+{
+		width:75px;
+	height:75px;
+		width:75px;
+	height:75px;
+	vertical-align:top;
+}
+.old
+{
+	background-color: white;
+	color: rgba(0,0,0,0.25);
+}
+.holiday
+{
+	background-color: pink;
+}

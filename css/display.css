@@ -1,0 +1,21 @@
+span{
+	background-color: yellow;
+	height: 50px;
+	width: 590px;
+	display: inline-block;
+}
+div
+{
+	background-color: pink;
+	width: 50px;
+	height:100px;
+	display: inline-block;
+	
+}
+p{
+	background-color: orange;
+	width: 150px;
+	/*height: 20px;*/
+	display: inline-block;
+	/*float:right;*/
+}
